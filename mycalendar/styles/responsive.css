@@ -1,0 +1,124 @@
+@media(max-width:900px){
+    #page-home{
+        background-position-x: 70vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    #page-home main{
+        align-items: center;
+    }
+
+    #page-login{
+        background-position-x: 70vw;
+    }
+    #page-login header h3{
+        margin-left:5px
+    }
+
+    #page-login header a{
+        margin-right: 25px;
+    }
+
+    #page-login .field{
+        width: 70vw;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    #page-login #botao{
+        width: 70vw;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+
+    #page-register{
+        background-position-x: 70vw;
+    }
+
+    #page-register header a{
+        margin-left: 30px;
+    }
+
+    #page-register .field{
+        width: 70vw;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    #page-register .field-group{
+        flex-direction: column;
+    }
+
+    #page-register form button,  #page-mycalendar form button{
+        width: 70vw;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    #page-register table{
+        width: 70vw;
+    }
+
+    #page-mycalendar{
+        background-position-x: 70vw;
+    }
+
+    #page-mycalendar header a{
+        margin-left: 30px;
+    }
+
+    #page-mycalendar .field{
+        width: 70vw;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    #page-mycalendar .field-group{
+        flex-direction: column;
+    }
+
+    #page-mycalendar form button{
+        width: 70vw;
+        margin-top: 30px;
+    }
+
+    #msg-sucesso{
+        width: 70vw;
+    }
+
+    .msg-erro{
+        width: 70vw;
+    }
+
+}
+
+@media(min-width:1700px){
+    #page-home, #page-register, #page-mycalendar, #page-login{
+        background-position-x: 40vw;
+    }
+}
+
+@media(max-height:760px){
+    #page-home, #page-register, #page-mycalendar, #page-login{
+        background-position-y: 200px;
+    }
+}
